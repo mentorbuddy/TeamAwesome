@@ -27,10 +27,10 @@ class TopNTweetTopology
     // now create the tweet spout with the credentials
     // credential
     TweetSpout tweetSpout = new TweetSpout(
-            "",
-            "",
-            "",
-            ""
+            "gsvgIkPtGtLRCMnCBHNkMcJZr",
+            "7Y6jH49LJKy7TX7MoXKpiyCyKW4GK5UpPKteVbh0TcnWddv91s",
+            "4773674292-fILJua39s8hvksgsxWB0FHe50Tm6p901fMADF6w",
+            "SROBmz5sxNGaFqtxH7u47INZvjars7hqphryTZLLUoNX1"
     );
 
     // attach the tweet spout to the topology - parallelism of 1
